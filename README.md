@@ -3,7 +3,8 @@ Using 'nokogiri' we scrape yelp to practice some webscraping!
 
 
 Parsing
-We will be working with the following Yelp page: http://www.yelp.com/biz/fat-angel-san-francisco. Our goal will be to count the number of 5 star reviews Fat Angel has gotten.
+
+We will be working with the following Yelp page: <http://www.yelp.com/biz/fat-angel-san-francisco>. Our goal will be to count the number of 5 star reviews Fat Angel has gotten.
 
 First things first, we need to get this HTML file into a Nokogiri object to parse. Using Ruby's file I/O capabilities, read in the file as a single string of HTML.
 
@@ -15,8 +16,8 @@ Using CSS selectors in Nokogiri write a function to extract the first review (ev
 
 Now that we have extracted one review, we can structure the information contained within. Create a Review class to store the:
 
-Date of review
-Number of Stars
-User name of user who left review
-Text content of Review
-The original raw string of HTML corresponding to the review
+-Date of review
+-Number of Stars
+-User name of user who left review
+-Text content of Review
+-The original raw string of HTML corresponding to the review
